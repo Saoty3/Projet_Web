@@ -1,0 +1,11 @@
+Source:
+Eau du robinet:
+    Le captage: https://www.oise.gouv.fr/contenu/telechargement/13594/84917/file/Feuillet+n°196+-+Les+captages+d’eau+potable.pdf
+    Le traitement:
+    Le stockage:
+    La distribution:
+
+
+    Test de qualité:
+        https://www.ars.sante.fr/recherche-globale?search_ars=qualité+de+l%27eau&ars_site=&submit_search=Filtrer&submit_search=Filtrer
+        https://www.hauts-de-france.ars.sante.fr/des-plans-de-gestion-de-securite-sanitaire-des-eaux-pgsse
