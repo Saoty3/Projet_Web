@@ -78,9 +78,37 @@ footer {
 
 /*#####################----Schema-----#################*/
 
-.cercle{
+.nuage{
   width: 200px;
   height: 100px;
-  background-color: gray;
+  position: relative;
+}
+
+#n1, #n2, #n3{
+    position: absolute;
+  background-color: #d0e6f8;
   border-radius: 50%;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+#n1 {
+  width: 100px;
+  height: 60px;
+  top: 20px;
+  left: 0;
+  z-index: 2;
+}
+
+#n2 {
+  background-color: #d6e0eb;
+  width: 120px;
+  height: 70px;
+  top: 0;
+  left: 40px;
+}
+
+#n3 {
+  width: 100px;
+  height: 60px;
+  top: 20px;
+  left: 100px;
 }
