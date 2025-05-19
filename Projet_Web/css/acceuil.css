@@ -1,0 +1,78 @@
+header {
+  display: flex;
+  justify-content: space-between; /* Espace entre le logo et les liens */
+  align-items: center;            /* Centrage vertical */
+  height: 64px;
+  background-color: darkblue;
+  padding: 0 20px;
+}
+
+header img.logo {
+  width: 64px;
+  left:0;
+}
+
+nav {
+  display: flex;          /* <<< Aligne les liens en ligne */
+  gap: 20px;              /* Espace horizontal entre chaque lien */
+}
+
+nav a {
+  color: aliceblue;
+  text-decoration: none;
+  line-height: 64px;
+  padding: 0 20px;
+}
+
+nav a:hover {
+  background-color: blue;
+}
+
+body{
+  margin: 0;
+  background-color: aliceblue;
+}
+
+body p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 20px;
+  font-size: 20px;
+}
+body h3{
+  font-size: 2rem;
+  margin: 10px;
+}
+
+#debut {
+  height: 605px;
+  background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+  display: flex;
+  align-items: center;       /* centre verticalement image + texte */
+  justify-content: space-between;   /* centre le tout horizontalement */
+  gap: 20px;                 /* espace entre image et texte */
+  padding: 20px;
+  color: beige;
+  font-size: 70px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#debut img {
+  height: 500px; /* ou un pourcentage */
+  margin-right: 70px;
+  border-radius: 17%;
+}
+
+#debut .texte {
+  width: 100%;
+  margin-left: 50px;
+}
+
+/*#####################----Schema-----#################*/
+
+.cercle{
+  width: 200px;
+  height: 100px;
+  background-color: gray;
+  border-radius: 50%;
+}
