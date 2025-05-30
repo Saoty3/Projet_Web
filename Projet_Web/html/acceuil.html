@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link rel= "stylesheet" href="../css/acceuil.css">
+    <script src="../script/scripte.js" defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aqua Savoir</title>
@@ -10,7 +11,7 @@
     <header>
         <img src="../img/Logo/logo.png" alt="logo" width="200 px">
         <nav>
-            <a href="accueil.html">Accueil</a>
+            <a href="acceuil.html">Accueil</a>
             <a href="credit.html">Crédits</a>
             <a href="contenu.html">Contenu</a>
         </nav>
@@ -34,12 +35,29 @@
     </p>
 
     <section class="schema">
-        <div class="cercle"></div>
-        <div class="cercle"></div>  
+        <div class="nuage" onclick="fairePleuvoir()" tabindex="0">
+            <div id="n1"></div>
+            <div id="n2"></div>
+            <div id="n3"></div> 
+            <svg class="pluie" width="200" height="350" viewBox="0 10 150 100"></svg>
+        </div>
+        <div class="vapeur">
+            <div id="b1"></div>
+            <div id="b2"></div>
+            <div id="b3"></div>
+        </div>
+        <div class="mer"></div>
+        <div class="montagne"></div>
+        <div class="riviere"></div>
+        
+        
     </section>
+    <button class="cycle" onclick="cycledelEau() ">Commencer</button>
 
     <h3>Notre objectif</h3>
     <p>Ce site a pour objectif de mieux comprendre le trajet parcouru par l'eau. De son point de captage, jusqu'a notre robinet. Connaître les différents sites qui existes en France et voir les normes appliqué sur la manipulation de l'eau.</p>
+
+    <div id="tooltip" style="position:absolute; background:#eee; padding:8px; border-radius:5px; opacity:0; transition:opacity 0.2s;"></div>
 
 </body>
 
