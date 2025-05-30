@@ -292,7 +292,6 @@ footer {
   height: 60px;
   width: 200px;
   color: green;
-  position:relative;
-  left: 460px;
-  top: 20px;
+  display: block;
+  margin: 10px auto;
 }
