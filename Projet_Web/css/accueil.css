@@ -40,6 +40,7 @@ body p{
 }
 
 body h3{
+  color: #007acc;
   font-size: 2rem;
   margin: 10px;
 }
@@ -59,7 +60,7 @@ footer {
   align-items: center;       /* centre verticalement image + texte */
   justify-content: space-between;   /* centre le tout horizontalement */
   gap: 20px;                 /* espace entre image et texte */
-  padding: 20px;
+  padding: 20px 38px;
   color: beige;
   font-size: 70px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -75,6 +76,30 @@ footer {
 #debut .texte {
   width: 100%;
   margin-left: 50px;
+}
+
+.divform{
+  padding: 30px 0;
+  max-width: 90%;
+  margin: auto;
+}
+
+.sectionv1 {
+  margin-bottom: 20px;
+  background-color: #ffffff;
+  padding: 1px 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h3 {
+  font-family: 'Segoe UI', sans-serif;
+  color: #007acc;
+  text-shadow: 2px 2px 2px rgba(0, 122, 204, 0.3);
+  margin-top: 50px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  position: relative;
 }
 
 /*#####################----Schema-----#################*/
@@ -168,23 +193,6 @@ footer {
   border-radius: 50%;
 }
 
-h3 {
-  font-family: 'Segoe UI', sans-serif;
-  text-size-adjust: 1.2rem;
-  text-align: left;
-  color: #007acc; /* bleu eau */
-  text-shadow: 1px 1px 2px rgba(0, 122, 204, 0.3);
-  margin-top: 40px;
-  margin-bottom: 20px;
-  position: relative;
-}
-
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  min-height: 30vh;
-  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
-}
 #n1 {
   width: 100px;
   height: 60px;

@@ -1,7 +1,7 @@
 header {
   display: flex;
-  justify-content: space-between; /* Espace entre le logo et les liens */
-  align-items: center;            /* Centrage vertical */
+  justify-content: space-between;
+  align-items: center;
   height: 64px;
   background-color: darkblue;
   padding: 0 20px;
@@ -11,9 +11,10 @@ header img.logo {
   height: 48px;
   left:0;
 }
+
 nav {
-  display: flex;          /* <<< Aligne les liens en ligne */
-  gap: 20px;              /* Espace horizontal entre chaque lien */
+  display: flex;
+  gap: 20px;
 }
 
 nav a {
@@ -32,7 +33,7 @@ nav a:hover {
   background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
   display: flex;
   align-items: center;
-  padding: 20px;
+  padding: 20px 38px;
   color: beige;
   font-size: 30px;
   font-family: sans-serif;
@@ -51,19 +52,12 @@ footer {
   margin-top: 30px;
 }
 
-.headerv1 {
-  background-color: #007acc;
-  color: white;
-  padding: 20px 0;
-  text-align: center;
-}
-
 #credits{
   left: 5%;
   font-family: sans-serif;
   text-size-adjust: 1.2rem;
   text-align: left;
-  color: #007acc; /* bleu eau */
+  color: #007acc; 
   text-shadow: 1px 1px 2px rgba(0, 122, 204, 0.3);
   font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
   margin-top: 40px;
@@ -71,7 +65,6 @@ footer {
   position: relative;
 }
 
-/* Section principale */
 .credit-section {
   max-width: 80%;
   margin: 40px auto;
@@ -82,7 +75,6 @@ footer {
   font-family: 'Segoe UI', sans-serif;
 }
 
-/* Titre */
 .credit-title {
   text-align: center;
   color: #007acc;
@@ -90,7 +82,6 @@ footer {
   margin-bottom: 20px;
 }
 
-/* Tableau */
 .credit-table {
   width: 100%;
   border-collapse: collapse;
@@ -100,7 +91,6 @@ footer {
   box-shadow: 0 0 6px rgba(0, 123, 255, 0.1);
 }
 
-/* En-têtes */
 .credit-table th {
   background-color: #cceeff;
   color: #003d66;
@@ -109,7 +99,6 @@ footer {
   text-align: center;
 }
 
-/* Cellules */
 .credit-table td {
   padding: 15px;
   text-align: center;
@@ -117,7 +106,6 @@ footer {
   height: 50px;
 }
 
-/* Ligne survolée */
 .credit-table tr:hover {
   background-color: #e6f7ff;
 }

@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <link rel= "stylesheet" href="../css/acceuil.css">
+    <link rel= "stylesheet" href="../css/accueil.css">
     <script src="../script/scripte.js" defer></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aqua Savoir</title>
-</head>
-<body>
+
     <header>
-        <img src="../img/Logo/logo.png" alt="logo" width="200 px">
+        <img src="../img/Logo/logo.png" alt="logo" width="200px">
         <nav>
-            <a href="acceuil.html">Accueil</a>
+            <a href="accueil.html">Accueil</a>
             <a href="credit.html">Crédits</a>
             <a href="contenu.html">Contenu</a>
         </nav>
@@ -21,7 +20,11 @@
         <h1>Comprendre le trajet de l'eau</h1>
         <img src="../img/debut.jpg" alt="image debut.jpg">
     </section>
-    
+</head>
+
+<body>
+    <div class="divform">
+    <section class="sectionv1">
     <h3>Avant toute chose</h3>
     
     <p>
@@ -33,6 +36,8 @@
     <p>
         Contrairement à des ressources comme le pétrole, dont les réserves sont limitées et mettent des millions d’années à se former, l’eau est en circulation permanente. Elle ne disparaît pas, elle se transforme et se déplace. C’est ce que l’on appelle le cycle de l’eau, un processus naturel qui permet à l’eau de passer d’un état à un autre, et de voyager dans l’atmosphère, les sols, les rivières et les océans. Ce cycle, que nous allons explorer en premier, est la base de toute compréhension de l’eau : sans lui, il n’y aurait ni sources, ni pluie, ni nappes souterraines.
     </p>
+    </section>
+    </div>
 
     <section class="schema">
         <div class="nuage" onclick="fairePleuvoir()" tabindex="0">
@@ -54,11 +59,14 @@
     </section>
     <button class="cycle" onclick="cycledelEau() ">Commencer</button>
 
-    <h3>Notre objectif</h3>
-    <p>Ce site a pour objectif de mieux comprendre le trajet parcouru par l'eau. De son point de captage, jusqu'a notre robinet. Connaître les différents sites qui existes en France et voir les normes appliqué sur la manipulation de l'eau.</p>
-
-    <div id="tooltip" style="position:absolute; background:#eee; padding:8px; border-radius:5px; opacity:0; transition:opacity 0.2s;"></div>
-
+    
+    <div class="divform">
+        <section class="sectionv1">
+            <h3>Notre objectif</h3>
+            <p>Ce site a pour objectif de mieux comprendre le trajet parcouru par l'eau. De son point de captage, jusqu'a notre robinet. Connaître les différents sites qui existes en France et voir les normes appliqué sur la manipulation de l'eau.</p>
+            <div id="tooltip" style="position:absolute; background:#eee; padding:8px; border-radius:5px; opacity:0; transition:opacity 0.2s;"></div>  
+        </section>
+    </div>
 </body>
 
 <footer>
