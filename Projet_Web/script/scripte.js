@@ -47,23 +47,28 @@ function faireMonterLaVapeur() {
   vapeur.classList.add("animate-monter");
 }
 
-function cycledelEau() {
-  if(animation) return;
-  animation = true;
-  nuage.style.left = "3%"; 
-  nuage.style.display = "block";
-  nuage.classList.remove("nuage-disparition");
-  nuage.offsetWidth;
-  nuage.classList.add("nuage-apparition");
-  for (let i=0; i<2; i++){
-    setTimeout(faireMonterLaVapeur,i * 2000);
-  }
-  setTimeout(deplacementNuage, 5000); // après 2 secondes, déplacer le nuage
-  setTimeout(fairePleuvoir,7500);
-  setTimeout(()=> {
-    nuage.classList.remove("animate-nuage");
-    nuage.classList.add("nuage-disparition");
+  function cycledelEau() {
+    if(animation) return;
+    animation = true;
+
+    const bouton = document.getElementById("cycle");
+    bouton.disabled = true;
+
+    nuage.style.left = "3%"; 
+    nuage.style.display = "block";
+    nuage.classList.remove("nuage-disparition");
     nuage.offsetWidth;
-    nuage.style.left = "78%";},10500); 
-  setTimeout(animation =  false, 15000);
-}
+    nuage.classList.add("nuage-apparition");
+    for (let i=0; i<2; i++){
+      setTimeout(faireMonterLaVapeur,i * 2000);
+    }
+    setTimeout(deplacementNuage, 5000); // après 2 secondes, déplacer le nuage
+    setTimeout(fairePleuvoir,7500);
+    setTimeout(()=> {
+      nuage.classList.remove("animate-nuage");
+      nuage.classList.add("nuage-disparition");
+      nuage.offsetWidth;
+      nuage.style.left = "78%";},10500); 
+    setTimeout(()=> {animation =  false;
+      bouton.disabled = false}, 15000);
+  }
