@@ -26,7 +26,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: blue;
+  background-color: rgb(37, 139, 255);
 }
 
 body{
@@ -142,6 +142,23 @@ li{
   margin-left: 3%;
 }
 
+a.lien {
+  color: #0077cc;
+  text-decoration: none;
+  font-weight: 500;
+  background: linear-gradient(to right, #00bfff, #0077cc);
+  background-size: 0% 2px;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  transition: background-size 0.3s ease, color 0.3s ease;
+  border-radius: 4px;
+}
+
+a.lien:hover {
+  color: #005fa3;
+  background-size: 100% 2px;   /* Animation de soulignement fluide */
+}
+
 
 /*#####################-----Page vignette_2-----##########################*/
 
@@ -164,7 +181,7 @@ li{
 }
 
 .vignette h1{
-  text-decoration-style: none;
+  text-decoration-style: wavy;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color:black
 }
