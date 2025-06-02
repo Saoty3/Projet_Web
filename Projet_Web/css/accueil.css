@@ -54,7 +54,7 @@ footer {
 }
 
 #debut {
-  height: 605px;
+  height: 100vh;
   background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
   display: flex;
   align-items: center;       /* centre verticalement image + texte */
